@@ -8,3 +8,26 @@ If you want to change something in code you need to know how [CustomTkinter](htt
 
 ![image_1](for_README/Screenshot_1.png)
 
+⇓⇓⇓Cartoon style⇓⇓⇓
+
+![image_1](for_README/Screenshot_2.png)
+
+it's not a good image, for redrawing it to cartoon style. So⇓⇓⇓
+
+![image_1](for_README/Screenshot_3.png)
+
+that's better
+
+⇓⇓⇓Pixel-art style⇓⇓⇓
+
+![image_1](for_README/Screenshot_4.png)
+
+⇓⇓⇓coloured ASCII style⇓⇓⇓
+
+![image_1](for_README/Screenshot_5.png)
+
+⇓⇓⇓ASCII style⇓⇓⇓
+
+![image_1](for_README/Screenshot_6.png)
+
+it'll be in the .txt file
