@@ -10,24 +10,24 @@ If you want to change something in code you need to know how [CustomTkinter](htt
 
 ⇓⇓⇓Cartoon style⇓⇓⇓
 
-![image_1](for_README/Screenshot_2.png)
+![image_2](for_README/Screenshot_2.png)
 
 it's not a good image, for redrawing it to cartoon style. So⇓⇓⇓
 
-![image_1](for_README/Screenshot_3.png)
+![image_3](for_README/Screenshot_3.png)
 
 that's better
 
 ⇓⇓⇓Pixel-art style⇓⇓⇓
 
-![image_1](for_README/Screenshot_4.png)
+![image_4](for_README/Screenshot_4.png)
 
 ⇓⇓⇓coloured ASCII style⇓⇓⇓
 
-![image_1](for_README/Screenshot_5.png)
+![image_5](for_README/Screenshot_5.png)
 
 ⇓⇓⇓ASCII style⇓⇓⇓
 
-![image_1](for_README/Screenshot_6.png)
+![image_5](for_README/Screenshot_6.png)
 
 it'll be in the .txt file
