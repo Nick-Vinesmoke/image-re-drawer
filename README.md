@@ -6,5 +6,5 @@ This program re-draws your photos in a selected style(styles: cartoon, pixel-art
 Simple and understandable GUI.
 If you want to change something in code you need to know how [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter/wiki) and  [Tkinter](https://docs.python.org/3/library/tkinter.html) works and also Phyton.
 
-![image_1](for README/Screenshot_1.png)
+![image_1](for_README/Screenshot_1.png)
 
