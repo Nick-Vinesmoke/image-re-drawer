@@ -7,7 +7,7 @@ pip install tkfilebrowser
 pip install opencv-python
 pip install pytest-shutil
 
-pyinstaller --onefile --windowed --icon "icon.ico" --add-data "C:/Users/darkd/AppData/Local/Programs/Python/Python310/Lib/site-packages/customtkinter;customtkinter/" "Cartoonizer.py" -w -F
+pyinstaller --onefile --windowed --icon "icon.ico" --add-data "C:/Users/darkd/AppData/Local/Programs/Python/Python310/Lib/site-packages/customtkinter;customtkinter/" "re-drawer.py" -w -F
 
 rmdir /s /q build
 
