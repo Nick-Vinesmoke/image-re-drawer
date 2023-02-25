@@ -39,7 +39,7 @@ So firstly you need to download [python](https://www.python.org/downloads/). The
 
 What need to be in "files" folder:
 
-![LOGO](git/Screenshot_7.png)
+![LOGO](for_README/Screenshot_7.png)
 
 more [here](https://github.com/TomSchimansky/CustomTkinter/wiki/Packaging)
 
