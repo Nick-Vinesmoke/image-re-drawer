@@ -20,6 +20,7 @@ def WinProperties(win):
     win.geometry("700x550+560+240")  # place and scale
     win.title("Image modificator")  # name of the window
     win.resizable(False, False)  # deformation of the window
+    win.minsize(700,550)
     win.iconbitmap(f'{icon}')  # icon
     ct.set_appearance_mode('dark')
     ct.set_default_color_theme('green')
@@ -227,6 +228,8 @@ setStyle = ct.StringVar(value="cartoon")
 
 WinProperties(win)
 canvas = Canvas(master=win,width=800, height=520, background='#262626', highlightthickness=0)
+ct.CTkFrame(master=win, width= 690,height=50,fg_color = "#242424").place(relx= 0.5,rely= 0.95,anchor=CENTER)
+ct.CTkFrame(master=win, width= 690,height=69,fg_color = "#242424").place(relx= 0.5,rely=0.065,anchor=CENTER)
 canvas.place(relx=0.5, rely=0.52, anchor=CENTER)
 gitimage = ct.CTkImage(light_image=Image.open(gitimg),dark_image=Image.open(gitimg),size=(30, 30))
 ct.CTkLabel(master=win,text = 'AI which redraw your photos in selected style',font=('Arial Rounded MT bold', 24)).place(relx= 0.5,rely= 0.03,anchor=CENTER)
@@ -237,4 +240,5 @@ ct.CTkComboBox(master=win,values=["dark","light"],variable=setTheme,command=Them
 ct.CTkButton(master=win,text = '',image=gitimage,font=('Arial Rounded MT bold', 18),width = 1,command=Git,corner_radius = 8).place(relx= 0.05,rely= 0.95,anchor=CENTER)
 ct.CTkLabel(master=win,text = 'Select style:',font=('Arial Rounded MT bold', 18)).place(relx= 0.7,rely= 0.95,anchor=CENTER)
 ct.CTkComboBox(master=win,values=["cartoon","pixel art","ascii color art","ascii art"],variable=setStyle,height = 40).place(relx= 0.88,rely= 0.95,anchor=CENTER)
+
 win.mainloop()
